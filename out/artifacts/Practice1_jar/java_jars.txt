@@ -1,0 +1,16 @@
+charsets.jar
+lib/ext/cldrdata.jar
+lib/ext/dnsns.jar
+lib/ext/icedtea-sound.jar
+lib/ext/jaccess.jar
+lib/ext/localedata.jar
+lib/ext/nashorn.jar
+lib/ext/sunec.jar
+lib/ext/sunjce_provider.jar
+lib/ext/sunpkcs11.jar
+lib/ext/zipfs.jar
+lib/jce.jar
+lib/jsse.jar
+lib/management-agent.jar
+lib/resources.jar
+lib/rt.jar
