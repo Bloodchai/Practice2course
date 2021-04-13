@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.GUI">
+  <grid id="27dc6" binding="Main" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="19" width="500" height="401"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="68ef6" class="javax.swing.JButton" binding="runButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Run problem solving"/>
+        </properties>
+      </component>
+      <component id="52043" class="javax.swing.JTextField" binding="COMSOLPathTextField">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="adf" class="javax.swing.JButton" binding="choosePathToCOMSOLButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Choose path to COMSOL"/>
+        </properties>
+      </component>
+      <scrollpane id="d4ac3">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="17b6d" class="javax.swing.JTextArea" binding="textAreaRunWork">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="5f0dc" class="javax.swing.JLabel" binding="Label1">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Program output"/>
+        </properties>
+      </component>
+      <component id="2abc1" class="javax.swing.JButton" binding="runCOMSOLButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Run COMSOL server"/>
+        </properties>
+      </component>
+      <component id="aab1f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="88" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="a6033"/>
+          <text value="Coil1 Params"/>
+        </properties>
+      </component>
+      <component id="aa7b8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="88" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="d9107"/>
+          <text value="Coil2 Params"/>
+        </properties>
+      </component>
+      <component id="d9107" class="javax.swing.JComboBox" binding="coil2ParamsComboBox" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="137" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <model>
+            <item value="Radius"/>
+            <item value="Height"/>
+            <item value="Number of turns"/>
+            <item value="Ox position"/>
+            <item value="Oy position"/>
+            <item value="Oz position"/>
+          </model>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="a649c" class="javax.swing.JTextField" binding="coil2ParamsTextField">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a6033" class="javax.swing.JTextField" binding="coil1ParamsTextField" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="efd6d" class="javax.swing.JComboBox" binding="coil1ParamsComboBox">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="137" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <model>
+            <item value="Radius"/>
+            <item value="Height"/>
+            <item value="Number of turns"/>
+            <item value="Ox position"/>
+            <item value="Oy position"/>
+            <item value="Oz position"/>
+          </model>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
